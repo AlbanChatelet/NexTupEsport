@@ -1,0 +1,175 @@
+.fond {
+    background-color: #1C1A1A;
+}
+
+.position_symboles {
+    position: relative;
+    margin-top: 1%;
+    height: 60px;
+    padding-bottom: 2%;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.description {
+    display: flex;
+    width: 800px;
+    height: 159px;
+    flex-shrink: 0;
+    color: #D6EAF0;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 110%;
+    margin-left: -400px;
+    margin-top: 300px;
+
+}
+
+.position_terrain {
+    display: flex;
+    margin-top: -5%;
+    margin-left: -15%;
+}
+
+.position_jouer {
+    display: flex;
+    margin-top: -5%;
+    margin-left: 4%;
+}
+
+.bold {
+    font-weight: bold;
+
+}
+
+.extra-bold {
+    font-weight: 900;
+}
+
+.sentrainer {
+    display: flex;
+    position: relative;
+    margin-left: -1450px;
+    margin-top: 450px;
+
+}
+
+.cadre_bleu2 {
+    display: flex;
+    border: 2px solid rgba(255, 255, 255, 0.695);
+
+    border-radius: 10px;
+    background-color: #36C1ED;
+    box-shadow: 0px 0px 10px 5px rgba(0, 255, 255, 0.508);
+
+    height: 60px;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.texte_central {
+    font-family: Mulish;
+    font-size: 50px;
+    resize: vertical;
+    width: 100px;
+    white-space: nowrap;
+    letter-spacing: 0em;
+    color: #FFFFFF
+}
+
+.texte_central_bleu {
+    font-family: Mulish;
+    font-size: 50px;
+    resize: vertical;
+    width: 100px;
+    white-space: nowrap;
+    letter-spacing: 0em;
+    color: #36C1ED
+}
+
+.cadre_texte {
+    display: flex;
+    margin-left: 80px;
+}
+
+.mid {
+    margin-top: 120px;
+    margin-left: -100px;
+}
+
+.mid2 {
+    margin-top: 120px;
+    margin-left: 80px;
+}
+
+.mid3 {
+    margin-top: 120px;
+    margin-left: 310px;
+}
+
+.mid4 {
+    margin-top: 120px;
+    margin-left: 400px;
+}
+
+.bot {
+    margin-top: 190px;
+
+    margin-left: -100px;
+}
+
+.bot2 {
+    margin-top: 190px;
+
+    margin-left: 200px;
+}
+
+.bot3 {
+    margin-top: 190px;
+
+    margin-left: -600px;
+}
+
+@media(max-witdth:380px) {
+    .texte_central {
+        font-family: Mulish;
+        font-size: 10px;
+
+        width: 100px;
+        white-space: nowrap;
+        letter-spacing: 0em;
+        color: #FFFFFF
+    }
+
+    .extra-bold {
+        font-weight: 500;
+    }
+
+    .cadre_texte {
+        display: flex;
+        margin-left: 50px;
+    }
+
+
+}
